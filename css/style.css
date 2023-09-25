@@ -8,7 +8,7 @@ body{
 }
 
 #pattern{
-    background-color: #437ed7;  
+    background-color: rgb(67, 126, 215);  
     background-image: url("../img/pattern.png");
     height: 80px;
     background-size: 300px;
@@ -22,7 +22,7 @@ body{
     top: 30px;
 }
 
-section, main{
+section, main, footer{
     padding: 4px;
 }
 
@@ -30,7 +30,7 @@ h1{
     font-size: 30px;
 }
 
-.photos-tim, ul, table, h1{
+.photos-tim, ul, table, h1, footer{
     margin-top: 15px;
 }
 
@@ -53,7 +53,14 @@ h1{
 
 .text-g{
     color: rgb(152, 160, 160);
-    font-size: 13px;;
+    font-size: 14px;;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.date{
+    font-size: 11px;
+    color: rgb(152, 160, 160);
 }
 
 #bibliography{
@@ -66,7 +73,6 @@ h1{
     background-color: yellow;
 }
 
-
 ul{
     margin-left: -28px;
 }
@@ -74,20 +80,41 @@ ul{
 table{
     width: 100%;
     margin-bottom: 20px;
+    font-size: 14px;
+    border: 0px solid;
+    border-spacing: 0;
 }
 
 .description-table{
     width: 50%;
 }
 
-
-thead, .b{
-    background-color: rgb(100, 159, 248);
+thead{
+    background-color: rgb(83, 167, 223);
     color: white;
     text-align: left;
-
 }
 
 .blu-row{
-    background-color: rgba(50, 157, 196, 0.4);
+    background-color: rgb(189, 227, 240);
+}
+
+#monitor1{
+    background-image: url('../img/monitor.jpg');
+}
+
+#monitor2{
+    background-image: url('../img/graph.jpg');
+}
+
+.small-photos{
+    width: 170px;
+    height: 120px;
+    font-size: 16px;
+    color: white;
+    padding-top: 6px;
+    padding-left: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-weight: 600;
 }
