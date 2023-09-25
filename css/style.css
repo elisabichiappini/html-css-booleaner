@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#pattern{
+    background-color: #437ed7;  
+    background-image: url("../img/pattern.png");
+    height: 80px;
+    background-size: 300px;
+    
+
+}
+
+#logo{
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    height: 40px;
+    position: relative;
+    top: 30px;
+}
