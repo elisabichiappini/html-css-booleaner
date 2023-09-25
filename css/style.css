@@ -3,13 +3,15 @@
     margin: 0;
 }
 
+body{
+    font-size: 13px;
+}
+
 #pattern{
     background-color: #437ed7;  
     background-image: url("../img/pattern.png");
     height: 80px;
     background-size: 300px;
-    
-
 }
 
 #logo{
@@ -18,4 +20,74 @@
     height: 40px;
     position: relative;
     top: 30px;
+}
+
+section, main{
+    padding: 4px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.photos-tim, ul, table, h1{
+    margin-top: 15px;
+}
+
+.images-tim1{
+    height: 300px;
+    width: 400px;
+    background-image: url('../img/tim-1.jpg');
+    display: inline-block;
+    background-size: cover;
+}
+
+.images-tim2{
+    height: 300px;
+    width: 400px;
+    background-image: url('../img/tim-2.jpg');
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-g{
+    color: rgb(152, 160, 160);
+    font-size: 13px;;
+}
+
+#bibliography{
+    font-size: 9px;
+    font-weight: 600;
+}
+
+
+.selected-text{
+    background-color: yellow;
+}
+
+
+ul{
+    margin-left: -28px;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.description-table{
+    width: 50%;
+}
+
+
+thead, .b{
+    background-color: rgb(100, 159, 248);
+    color: white;
+    text-align: left;
+
+}
+
+.blu-row{
+    background-color: rgba(50, 157, 196, 0.4);
 }
