@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(67, 126, 215);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.text-g{
+    color: rgb(53, 61, 125);
+    font-size: 10px;
+}
+
+section{
+    width: 100%;
+}
+
+span{
+    color: rgb(255, 255, 255);
+}
+
+#pattern{
+    background-color: rgb(67, 126, 215);
+    height: 110px;
+    background-image: url('../img/pattern.png');
+}
+
+#logo{
+    background-image: url('../img/logo.svg');
+
+}
+
+
+header, section, main, footer, table, ul{
+    margin-top: 30px;
+}
+
+.photo-tim{
+    height: 500px;
+    width: 100%;
+}
+
+.images-tim1{
+    height: 400px;
+    width: 50%;
+    background-image: url('../img/tim-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+    position: relative;
+}
+
+.images-tim2{
+    height: 400px;
+    width: 50%;
+    background-image: url('../img/tim-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#bibliography{
+     color: rgb(53, 61, 125);
+     font-weight: 600;
+     font-size: 10px;
+}
+
+p{
+    font-weight: lighter;
+}
+
+ul{
+    font-weight: 600;
+}
+
+thead{
+    background-color: rgb(53, 61, 125);
+    text-align: left;
+    font-size: 12px;
+}
+
+table{
+    width: 100%;
+    border-spacing: 5px;
+}
+
+.blu-row{
+    background-color: rgba(53, 61, 125, 0.4);
+}
+
+.selected-text{
+    color: orange;
+    font-weight: 600;
+}
+
+footer{
+    width: 100%;
+    position: relative;
+}
+
+
+#monitor1{
+    height: 400px;
+    width: 50%;
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+#monitor2{
+    height: 400px;
+    width: 50%;
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    background-position: left;
+
+}
