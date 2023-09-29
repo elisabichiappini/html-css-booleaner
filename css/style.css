@@ -20,7 +20,7 @@ body {
 }
 
 .blu-text {
-    color: rgb(67, 126, 215);
+    color: rgb(32, 162, 218);
 }
 
 /* 
@@ -28,6 +28,10 @@ body {
 Header
 -----------------
 */
+
+h1{
+    font-size: 30px;
+}
 
 header {
     background-color: rgb(67, 126, 215);  
@@ -53,9 +57,6 @@ section, main, footer {
     padding: 20px;
 }
 
-h1{
-    font-size: 30px;
-}
 
 .photos-tim, ul, table, h1, footer {
     margin-top: 15px;
@@ -76,16 +77,21 @@ h1{
     background-size: cover;
 }
 
-.autore {
+.info-article {
     color: rgb(152, 160, 160);
     font-size: 14px;;
-    font-weight: 600;
     margin-bottom: 4px;
+}
+
+.autore {
+    font-size: 18px;
 }
 
 .date {
     font-size: 11px;
     color: rgb(152, 160, 160);
+    font-weight: 600;
+    
 }
 
 #bibliography {
