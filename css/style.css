@@ -1,12 +1,27 @@
+/* 
+-----------------
+Reset
+-----------------
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
+/* 
+-----------------
+Common
+-----------------
+*/
+
 body{
     font-size: 13px;
 }
 
+.blu-text {
+    color: rgb(67, 126, 215);
+}
 #pattern{
     background-color: rgb(67, 126, 215);  
     background-image: url("../img/pattern.png");
@@ -17,13 +32,12 @@ body{
 
 #logo{
     background-repeat: no-repeat;
-    height: 40px;
-    position: relative;
-    top: 30px;
+    width: 200px;
+    padding: 20px;
 }
 
 section, main, footer{
-    padding: 4px;
+    padding: 20px;
 }
 
 h1{
@@ -37,7 +51,6 @@ h1{
 .images-tim1{
     height: 300px;
     width: 400px;
-    background-image: url('../img/tim-1.jpg');
     display: inline-block;
     background-size: cover;
 }
@@ -45,13 +58,12 @@ h1{
 .images-tim2{
     height: 300px;
     width: 400px;
-    background-image: url('../img/tim-2.jpg');
     display: inline-block;
     background-position: center;
     background-size: cover;
 }
 
-.text-g{
+.autore {
     color: rgb(152, 160, 160);
     font-size: 14px;;
     font-weight: 600;
