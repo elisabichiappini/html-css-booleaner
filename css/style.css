@@ -15,28 +15,41 @@ Common
 -----------------
 */
 
-body{
+body {
     font-size: 13px;
 }
 
 .blu-text {
     color: rgb(67, 126, 215);
 }
-#pattern{
+
+/* 
+-----------------
+Header
+-----------------
+*/
+
+header {
     background-color: rgb(67, 126, 215);  
     background-image: url("../img/pattern.png");
-    height: 80px;
     /* qui è più corretto fare la percentuale */
     background-size: 20%;
 }
 
-#logo{
+#logo {
     background-repeat: no-repeat;
     width: 200px;
-    padding: 20px;
+    padding-top: 40px;
+    padding-left: 20px;
 }
 
-section, main, footer{
+/* 
+-----------------
+Main
+-----------------
+*/
+
+section, main, footer {
     padding: 20px;
 }
 
@@ -44,18 +57,18 @@ h1{
     font-size: 30px;
 }
 
-.photos-tim, ul, table, h1, footer{
+.photos-tim, ul, table, h1, footer {
     margin-top: 15px;
 }
 
-.images-tim1{
+.images-tim1 {
     height: 300px;
     width: 400px;
     display: inline-block;
     background-size: cover;
 }
 
-.images-tim2{
+.images-tim2 {
     height: 300px;
     width: 400px;
     display: inline-block;
@@ -70,26 +83,26 @@ h1{
     margin-bottom: 4px;
 }
 
-.date{
+.date {
     font-size: 11px;
     color: rgb(152, 160, 160);
 }
 
-#bibliography{
+#bibliography {
     font-size: 9px;
     font-weight: 600;
 }
 
 
-.selected-text{
+.selected-text {
     background-color: yellow;
 }
 
-ul{
+ul {
     margin-left: -28px;
 }
 
-table{
+table {
     width: 100%;
     margin-bottom: 20px;
     font-size: 14px;
@@ -97,29 +110,35 @@ table{
 /* per togliere il bordo è corretto così e non mettere border-spacing: 0;*/
     border-collapse: collapse;
 }
-.description-table{
+.description-table {
     width: 50%;
 }
 
-thead{
+thead {
     background-color: rgb(83, 167, 223);
     color: white;
     text-align: left;
 }
 
-.blu-row{
+.blu-row {
     background-color: rgb(189, 227, 240);
 }
 
-#monitor1{
+/* 
+-----------------
+Footer
+-----------------
+*/
+
+#monitor1 {
     background-image: url('../img/monitor.jpg');
 }
 
-#monitor2{
+#monitor2 {
     background-image: url('../img/graph.jpg');
 }
 
-.small-photos{
+.small-photos {
     width: 170px;
     height: 120px;
     font-size: 16px;
