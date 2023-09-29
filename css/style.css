@@ -58,7 +58,7 @@ Main
     font-weight: 600;
 }
 
-section, footer, .content, .elenco, .table{
+section, footer, .content, .elenco, .table {
     padding: 20px;
 }
 
@@ -127,7 +127,7 @@ thead {
     text-align: left;
 }
 
-td{
+td {
     padding: 5px
 }
 
@@ -155,14 +155,13 @@ Footer
     font-size: 16px;
     color: white;
     padding: 12px 10px 0 10px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     font-weight: 600;
     margin-bottom: 10px;
-
 }
 
-h3{
+h3 {
     color: rgb(152, 160, 160);
     margin-bottom: 10px;
 }
