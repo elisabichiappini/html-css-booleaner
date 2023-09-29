@@ -36,7 +36,7 @@ h1{
 header {
     background-color: rgb(67, 126, 215);  
     background-image: url("../img/pattern.png");
-    /* qui è più corretto fare la percentuale */
+/* qui è più corretto fare la percentuale */
     background-size: 20%;
 }
 
@@ -53,28 +53,13 @@ Main
 -----------------
 */
 
-section, main, footer {
+#bibliography {
+    font-size: 9px;
+    font-weight: 600;
+}
+
+section, footer, .content, .elenco, .table{
     padding: 20px;
-}
-
-
-.photos-tim, ul, table, h1, footer {
-    margin-top: 15px;
-}
-
-.images-tim1 {
-    height: 300px;
-    width: 400px;
-    display: inline-block;
-    background-size: cover;
-}
-
-.images-tim2 {
-    height: 300px;
-    width: 400px;
-    display: inline-block;
-    background-position: center;
-    background-size: cover;
 }
 
 .info-article {
@@ -91,31 +76,47 @@ section, main, footer {
     font-size: 11px;
     color: rgb(152, 160, 160);
     font-weight: 600;
-    
 }
-
-#bibliography {
-    font-size: 9px;
-    font-weight: 600;
-}
-
 
 .selected-text {
     background-color: yellow;
 }
 
+/* 
+-----------------
+Immagini
+-----------------
+*/
+
+.images-tim1 {
+    background-size: contain;
+}
+
+/* 
+-----------------
+Elenco
+-----------------
+*/
+
 ul {
     margin-left: -28px;
 }
 
+
+/* 
+-----------------
+Tabella
+-----------------
+*/
+
 table {
     width: 100%;
-    margin-bottom: 20px;
     font-size: 14px;
     border: 0px solid;
 /* per togliere il bordo è corretto così e non mettere border-spacing: 0;*/
     border-collapse: collapse;
 }
+
 .description-table {
     width: 50%;
 }
@@ -124,6 +125,10 @@ thead {
     background-color: rgb(83, 167, 223);
     color: white;
     text-align: left;
+}
+
+td{
+    padding: 5px
 }
 
 .blu-row {
@@ -145,13 +150,19 @@ Footer
 }
 
 .small-photos {
-    width: 170px;
-    height: 120px;
+    width: 250px;
+    height: 150px;
     font-size: 16px;
     color: white;
-    padding-top: 6px;
-    padding-left: 6px;
+    padding: 12px 10px 0 10px;
     background-size: contain;
     background-repeat: no-repeat;
     font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+h3{
+    color: rgb(152, 160, 160);
+    margin-bottom: 10px;
 }

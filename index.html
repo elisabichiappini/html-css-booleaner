@@ -8,52 +8,53 @@
     
 </head>
 <body>   
-    <!-- header article: pattern + logo -->
+    <!-- intestazione article: pattern + logo -->
     <header>
-    <!-- corretto logo, perchè deve essere un'immagine per il SEO-->
         <img id="logo" src="img/logo.svg" alt="Logo Booleaner">
     </header>
-    <!-- /header article: pattern + logo-->
-    <!-- grommet article -->
+    <!-- /intestazione article: pattern + logo -->
+    <!-- articolo -->
+    <main>
+    <!-- titolo, info e immagini principali -->
         <section>
-            <div>
-                <h1>
-                    Internet deve essere al servizio del "bene pubblico": il <br>
-                    manifesto di Tim Berners-Lee
-                </h1>
-                <div class="info-article">
-                    <div class="autore">
-                        Scritto da <span class="blu-text">Booleaner</span>
-                    </div>
-                    <div class="date">
-                        il 10/10/2020
-                    </div>
+            <h1>
+                Internet deve essere al servizio del "bene pubblico": il <br>
+                manifesto di Tim Berners-Lee
+            </h1>
+            <div class="info-article">
+                <div class="autore">
+                    Scritto da <span class="blu-text">Booleaner</span>
+                </div>
+                <div class="date">
+                    il 10/10/2020
                 </div>
             </div>
             <div class="photos-tim">
                 <img class="images-tim1" src="img/tim-1.jpg" alt="tim1">
                 <img class="images-tim1" src="img/tim-2.jpg" alt="tim2">
-                <p id="bibliography">
+                <div id="bibliography">
                     1st Photo: John s. and James t. Knight roundation. ov scott Henrichsen <br>
                     2nd Photo: Wikimedia, by Paul Clarke
-                </p>
+                </div>
             </div>
         </section>
-        <!-- /grommet article-->
-        <!-- description article -->
-        <main>
+    <!-- /titolo, info e immagini principali -->
+    <!-- Introduzione articolo -->
+        <div class="content">
             <p>Lorem insum dolor sit amet. consectetuer adiniscing elit. sed diam nonummv nibh enismod tincidunt ut laoreet dolore magna aliquam erat volutnat. Ut wisi enim ad minim veniam, quis nostrud <span class="selected-text">merci tation ullamcorper suscipit lobortis misi ut aliquinat. Ut wisi enim ad minim veniam, quis  ex ea commodo consequat.</span>e Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie conseauat. vel illum dolore eu feugiat nulla facillisis at vero eros et accumsan et justo odio dignissim qui blandit praesent luptatum.</p>
-        <!-- /description article -->
-        <!-- elenco articolo -->        
-            <div>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid doloremque, nesciunt inventore assumenda quae facilis nisi sunt magni.</li>
-                    <li> nesciunt inventore assumenda quae facilis nisi sunt magni incidunt libero illo reiciendis fuga aperiam, temporibus quaerat, sed iure dolor.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid doloremque, nesciunt inventore assumenda quae facilis nisi sunt magni.</li>
-                </ul>
-        <!-- /elenco articolo-->
-        <!-- tabella articolo-->
-            </div>
+        </div>
+    <!-- /Introduzione articolo -->
+    <!-- elenco articolo -->
+        <div class="elenco">        
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid doloremque, nesciunt inventore assumenda quae facilis nisi sunt magni.</li>
+                <li> nesciunt inventore assumenda quae facilis nisi sunt magni incidunt libero illo reiciendis fuga aperiam, temporibus quaerat, sed iure dolor.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid doloremque, nesciunt inventore assumenda quae facilis nisi sunt magni.</li>
+            </ul>
+        </div>
+    <!-- /elenco articolo-->
+    <!-- tabella articolo-->
+        <div class="table">
             <table>
                 <thead>
                     <tr>
@@ -62,8 +63,8 @@
                         <th>Lorem ipsum dolor</th>
                     </tr>
                 </thead>
-                <tbody class="blu-row">
-                    <tr>
+                <tbody>
+                    <tr class="blu-row">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td class="description-table">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt mollitia explicabo temporibus. 
@@ -73,11 +74,9 @@
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td class="description-table">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt mollitia explicabo temporibus. 
-                            Cum non nisi ad nostrum quos numquam nam illo! Laudantium deleniti ab provident beatae, porro distinctio.</td> 
+                                Cum non nisi ad nostrum quos numquam nam illo! Laudantium deleniti ab provident beatae, porro distinctio.</td> 
                     </tr>
-                </tbody>
-                <tbody class="blu-row">
-                    <tr>
+                    <tr class="blu-row">
                         <td>Lorem ipsum dolor</td>
                         <td>Lorem ipsum dolor</td>
                         <td class="description-table">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt mollitia explicabo temporibus.
@@ -85,18 +84,21 @@
                     </tr>      
                 </tbody>
             </table>
-        <!--/tabella articolo -->
-        <!-- testo conclusione articolo -->
-            <p>Lorem ipsum dolor sit amet consectetur adipis am, illum enim temporibus laboriosam doloribus, eligendi neque maxime nihil repudiandae, quia nisi magnam culpa dolore! Laudantium quas explicabo veniam! Harum, est. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio temporibus velit  deleniti illum enim temporibus deleniti illum enim temporibus laboriosam doloribus,<span class="selected-text">sint unde excepturi tempora animi necessitatibus repellendus,</span> cumque asperiores esse ex soluta, pariatur voluptas accusamus quo corporis aspernatur.</p>
-        <!-- /testo conclusione articolo -->
+        </div>
+    <!--/tabella articolo -->
+    <!-- conclusione articolo -->
+        <div class="content">
+            <p>Lorem insum dolor sit amet. consectetuer adiniscing elit. sed diam nonummv nibh enismod tincidunt ut laoreet dolore magna aliquam erat volutnat. Ut wisi enim ad minim veniam, quis nostrud <span class="selected-text">merci tation ullamcorper suscipit lobortis misi ut aliquinat. Ut wisi enim ad minim veniam, quis  ex ea commodo consequat.</span>e Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie conseauat. vel illum dolore eu feugiat nulla facillisis at vero eros et accumsan et justo odio dignissim qui blandit praesent luptatum.</p>
+        </div>
+    <!-- /conclusione articolo -->
     </main>
-        <!-- /description article -->
-        <!-- footer: altri interessi + photos -->
+    <!-- /articolo -->
+    <!-- footer: altri interessi + photos -->
     <footer>
         <h3>Potrebbero interessarti</h3>
         <div id="monitor1" class="small-photos">Lorem lipsus dolor</div>
         <div id="monitor2" class="small-photos">Lorem lipsus dolor</div>
     </footer>
-        <!-- footer: altri interessi + photos -->
+    <!-- /footer: altri interessi + photos -->
 </body>
 </html>
